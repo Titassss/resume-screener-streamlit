@@ -15,7 +15,7 @@ st.markdown(
 )
 
 st.title("AI Resume Screener")
-st.text("Simple tool to rank resumes based on job description")
+st.text("An AI tool to rank resumes based on job description")
 
 with st.sidebar:
     st.header("Upload Files")
