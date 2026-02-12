@@ -3,38 +3,32 @@ import pytesseract
 from PIL import Image
 import io
 
-
-def extract_text_from_pdf(file):
-    file.seek(0)
-    file_bytes = file.read()
-    doc = fitz.open(stream=file_bytes, filetype="pdf")
-    text = ""
+def get_pdf_text(file_obj):
+    file_obj.seek(0)
+    data = file_obj.read()
+    doc = fitz.open(stream=data, filetype="pdf")
+    full_text = ""
 
     for page in doc:
-        page_text = page.get_text().strip()
+        text = page.get_text().strip()
 
-        if len(page_text) < 50:
+        if len(text) < 50:
             try:
-                pix = page.get_pixmap(dpi=300)
+                pix = page.get_pixmap()
                 img = Image.open(io.BytesIO(pix.tobytes("png")))
-                ocr_text = pytesseract.image_to_string(img)
-                text += ocr_text + "\n"
-            except Exception:
+                ocr_res = pytesseract.image_to_string(img)
+                full_text += ocr_res + "\n"
+            except:
                 pass
         else:
-            text += page_text + "\n"
+            full_text += text + "\n"
 
-    return text
-
-
-def extract_text_from_txt(file):
-    return file.read().decode("utf-8")
+    return full_text
 
 
-def extract_text(file):
+def get_file_content(file):
     if file.name.endswith(".pdf"):
-        return extract_text_from_pdf(file)
+        return get_pdf_text(file)
     elif file.name.endswith(".txt"):
-        return extract_text_from_txt(file)
-    else:
-        return ""
+        return file.read().decode("utf-8")
+    return ""
