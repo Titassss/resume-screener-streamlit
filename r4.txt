@@ -1,0 +1,75 @@
+Vikesh Kumar
++91 790-328-8699
+vikeshkumar3640@gmail.com
+LinkedIn | GitHub
+
+EDUCATION
+Indian Institute of Information Technology, Surat (2022–2026)
+Bachelor of Technology in Electronics and Communication Engineering
+CGPA: 8.57/10
+
+EXPERIENCE
+
+Bodhiverse Pvt Limited, IIT Bombay — Software Development Intern (6 months, 2025)
+- Developed enhanced web and app platforms, implementing a Wi-Fi-based automatic attendance system resolving iOS privacy restrictions.
+- Built a flexible quiz engine supporting 5+ question formats including AI-assisted image evaluation.
+
+Fact App — Product Growth Intern (Jun 2023 – Jul 2023)
+- Collaborated with cross-functional teams to design and optimize the FACT App platform.
+- Mentored 40+ JEE aspirants using data-driven insights to improve academic performance.
+
+PROJECTS
+
+OptiSplit (Next.js, MongoDB, Tailwind CSS, Vercel)
+- Developed a full-stack group expense management system with trip creation, transaction tracking, and real-time balance computation.
+- Implemented Greedy and Optimal graph-based settlement algorithms.
+- Integrated AI-powered receipt scanner using Google Gemini 2.5 Flash.
+- Ensured seamless deployment and scalability via Vercel.
+
+VehiGo (Next.js, Supabase, Prisma, Tailwind CSS, ArcJet, Shadcn UI)
+- Built a full-stack AI-powered car marketplace with RBAC, Clerk authentication, and Supabase-Prisma backend.
+- Features AI image-based search, EMI calculator, and test drive booking.
+- Deployed on Vercel with ArcJet for security and optimized performance.
+
+POSITION OF RESPONSIBILITY
+
+Growth Intern at FACT App (Jun 2023 – Jul 2023)
+- Mentored 40+ JEE aspirants individually.
+- Gathered user feedback to improve onboarding flow and overall platform experience.
+
+Esports Lead at IIIT Surat (2024)
+- Led esports club operations, organized gaming events, and coordinated team representation.
+
+TECHNICAL SKILLS
+
+Languages:
+C++, C, MATLAB, HTML, CSS, JavaScript, SQL
+
+Technologies/Frameworks:
+React, Tailwind CSS, Node.js, Express.js, Shadcn UI
+
+Databases:
+MongoDB, MySQL
+
+Backend/APIs:
+RESTful APIs, Authentication, Clerk, Middleware Handling
+
+Cloud & Deployment:
+AWS, Google Cloud, Vercel, Render, GitHub
+
+Relevant Coursework:
+OOP, Operating Systems, Data Structures and Algorithms,
+DBMS, Cloud Computing
+
+Soft Skills:
+Leadership, Analytical Thinking, Teamwork,
+Effective Communication, Adaptability
+
+CERTIFICATIONS / ACHIEVEMENTS
+
+- Certified in AI Fundamentals by IBM.
+- Knight on LeetCode, Top 5% coders (Max Rating: 1876).
+
+PROFILE LINKS
+
+LeetCode | CodeChef | GeeksforGeeks

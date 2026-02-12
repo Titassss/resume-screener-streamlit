@@ -1,0 +1,20 @@
+Name: Ankit Verma
+Email: ankit.verma@email.com
+
+Education:
+B.Tech Information Technology
+
+Skills:
+JavaScript, React, Node.js, Express, MongoDB,
+HTML, CSS, REST APIs, Git
+
+Projects:
+- MERN Stack Parking Booking App
+- E-commerce Website Backend
+- Chat Application using Socket.io
+
+Experience:
+Frontend Developer Intern at Web Solutions.
+
+Achievements:
+Hackathon finalist.
